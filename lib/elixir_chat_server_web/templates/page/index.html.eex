@@ -1,5 +1,8 @@
 <h1>Elixir Chat Server</h1>
 <div id="chat-container">
+  <%= for message <- @messages do %>
+  <p><b><%= message.name %>:></b> <%= message.body %></p>
+  <% end %>
 </div>
 <form id="chat-form">
   <textarea placeholder="Send a message" id="chat-message"></textarea>
