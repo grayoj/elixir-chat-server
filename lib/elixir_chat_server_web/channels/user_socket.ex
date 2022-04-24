@@ -3,6 +3,7 @@ defmodule ElixirChatServerWeb.UserSocket do
 
   ## Channels
   # channel "room:*", ElixirChatServerWeb.RoomChannel
+  channel "chat_channel_channel:*", ElixirChatServerWeb.ChatChannelChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After

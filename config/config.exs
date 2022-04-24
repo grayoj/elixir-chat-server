@@ -5,7 +5,7 @@
 # is restricted to this project.
 
 # General application configuration
-use Mix.Config
+import Config
 
 config :elixir_chat_server,
   ecto_repos: [ElixirChatServer.Repo]
